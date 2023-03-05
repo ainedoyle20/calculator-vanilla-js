@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Title of the document</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="calculator">
+        <div class="result_screen">
+          <span class="equation"></span>
+          <span class="result"></span>
+        </div>
+        <div class="btns_container">
+          <button type="button" class="darker btn" value="(">(</button>
+          <button type="button" class="darker btn" value=")">)</button>
+          <button type="button" class="darker btn" value="">&#11013;</button>
+          <button type="button" class="darker AC" value="">AC</button>
+          <button type="button" class="lighter btn" value="7">7</button>
+          <button type="button" class="lighter btn" value="8">8</button>
+          <button type="button" class="lighter btn" value="9">9</button>
+          <button type="button" class="darker eval_btn" value="/">÷</button>
+          <button type="button" class="lighter btn" value="4">4</button>
+          <button type="button" class="lighter btn" value="5">5</button>
+          <button type="button" class="lighter btn" value="6">6</button>
+          <button type="button" class="darker eval_btn" value="*">x</button>
+          <button type="button" class="lighter btn" value="1">1</button>
+          <button type="button" class="lighter btn" value="2">2</button>
+          <button type="button" class="lighter btn" value="3">3</button>
+          <button type="button" class="darker eval_btn" value="-">–</button>
+          <button type="button" class="lighter btn" value="0">0</button>
+          <button type="button" class="lighter btn" value=".">.</button>
+          <button type="button" id="evaluate" class="blue" value="">=</button>
+          <button type="button" class="darker eval_btn" value="+">+</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./app.js"></script>
+</html>
